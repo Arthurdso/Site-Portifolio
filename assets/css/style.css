@@ -1,11 +1,21 @@
 :root {
         /* cores */
-    --corPrimaria:#2e9feb;
+    --corPrimaria:#0864a1;
     --corSecundaria: #2c3e50;
+    --darkTheme:#1c1c1d;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+.theme {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -5%;
+    padding-bottom: 5%;
 }
 
 .foto-perfil {
@@ -62,7 +72,7 @@ p {
 .textoFooter {
     margin: 0px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 h3 {
@@ -76,21 +86,38 @@ h4 {
 }
 
 a {
-    text-decoration: underline;
-    text-underline-position: below;
+    
     padding-bottom: 20px;
     font-weight: 700;
     color: var(--corPrimaria)
 }
 
-.whatsapp {
+a:hover{
+    color: darkblue;
+}
+
+.contato {
     margin-left: 43%;
-    text-decoration: underline;
-    text-underline-position: below;
     padding-bottom: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: var(--corPrimaria);
+    
+}
+
+.contato:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.footer-p {
+    margin-top: 5px;
+}
+
+/* Tema Escuro */
+
+.darkTheme {
+    background-color: var(--darkTheme);
 }
 
 @media only screen and (max-width: 768px) {
@@ -113,11 +140,18 @@ a {
 
 }
 
-@media only screen and (max-width: 1080px) and (orientation: portrait) {
+@media only screen and (min-width: 1080px) and (orientation: portrait) {
     .whatsapp {
         margin-left: 41%;
     }
 
+}
+
+@media only screen and (min-width: 1920px) {
+    .theme {
+        margin-top: -2%;
+        padding-bottom: 5%;
+    }
 }
 
 
