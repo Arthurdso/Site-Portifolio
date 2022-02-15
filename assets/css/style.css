@@ -1,0 +1,10 @@
+.foto-perfil {
+    height: 15%;
+    width: auto;
+    max-width: 20%;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
