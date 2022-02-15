@@ -1,3 +1,13 @@
+:root {
+        /* cores */
+    --corPrimaria:#2e9feb;
+    --corSecundaria: #2c3e50;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .foto-perfil {
     height: 15%;
     width: auto;
@@ -5,6 +15,100 @@
     border-radius: 50%;
 }
 
-a {
-    text-decoration: none;
+.corPrimaria {
+    background-color: var(--corPrimaria);
 }
+
+.corSecundaria {
+    background-color: var(--corSecundaria);
+}
+
+p {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black !important;
+}
+
+.icones {
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+.titulosBrancos {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.titulosVerdes {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--corPrimaria)
+}
+
+.textoBranco {
+    color: white !important;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.textoFooter {
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h3, h4 {
+    
+}
+
+h3 {
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+h4 {
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    font-weight: 700;
+    color: var(--corPrimaria)
+}
+
+.whatsapp {
+    margin-left: 43%;
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--corPrimaria);
+}
+
+@media only screen and (max-width: 768px) {
+    .whatsapp {
+        margin-left: 35%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .whatsapp {
+        margin-left: 22%;
+    }
+
+}
+
+
+
