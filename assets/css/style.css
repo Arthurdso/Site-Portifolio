@@ -65,6 +65,10 @@ p {
     color: white !important;
 }
 
+.textoPreto {
+    color:black !important;
+}
+
 .jumbotron {
     margin-bottom: 0px;
 }
@@ -96,8 +100,13 @@ a:hover{
     color: darkblue;
 }
 
+.contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .contato {
-    margin-left: 43%;
     padding-bottom: 20px;
     text-transform: uppercase;
     font-weight: 700;
@@ -120,7 +129,7 @@ a:hover{
     background-color: var(--darkTheme);
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .whatsapp {
         margin-left: 35%;
     }
@@ -153,6 +162,6 @@ a:hover{
         padding-bottom: 5%;
     }
 }
-
+ */
 
 
