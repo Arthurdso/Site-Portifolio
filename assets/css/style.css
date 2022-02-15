@@ -106,5 +106,12 @@ a {
 
 }
 
+@media only screen and (max-width: 400px) {
+    .whatsapp {
+        margin-left: 25%;
+    }
+
+}
+
 
 
