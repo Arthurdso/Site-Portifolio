@@ -113,5 +113,12 @@ a {
 
 }
 
+@media only screen and (max-width: 1080px) and (orientation: portrait) {
+    .whatsapp {
+        margin-left: 41%;
+    }
+
+}
+
 
 
