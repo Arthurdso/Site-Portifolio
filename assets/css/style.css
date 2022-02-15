@@ -19,7 +19,7 @@ html {
 }
 
 .foto-perfil {
-    height: 15%;
+    height: 18%;
     width: auto;
     max-width: 20%;
     border-radius: 50%;
@@ -152,6 +152,9 @@ a:hover{
     .theme {
         margin-top: -3%;
     }
+    .foto-perfil {
+        max-width: 20%;
+    }
 }
 
 @media only screen and (min-width: 325px) and (orientation: portrait) {
@@ -175,6 +178,9 @@ a:hover{
         .navbar-brand {
             font-size: 15px;
         }
+        .foto-perfil {
+            max-width: 35%;
+        }
 }
 
 @media only screen and (max-width: 324px) and (orientation: portrait) {
@@ -197,5 +203,9 @@ a:hover{
         }
         .navbar-brand {
             font-size: 14px;
+        }
+
+        .foto-perfil {
+            max-width: 30%;
         }
 }
