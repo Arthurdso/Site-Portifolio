@@ -154,7 +154,7 @@ a:hover{
     }
 }
 
-@media only screen and (min-width: 339px) and (orientation: portrait) {
+@media only screen and (min-width: 325px) and (orientation: portrait) {
     .navbar-expand-lg, .navbar-collapse {
         display: -webkit-box!important;
         display: -ms-flexbox!important;
@@ -174,5 +174,28 @@ a:hover{
         }
         .navbar-brand {
             font-size: 15px;
+        }
+}
+
+@media only screen and (max-width: 324px) and (orientation: portrait) {
+    .navbar-expand-lg, .navbar-collapse {
+        display: -webkit-box!important;
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        }
+        .navbar-expand-lg, .navbar-nav, .nav-link {
+            padding-right: 0.5rem;
+            padding-left: 0.5rem;
+            display: flex;
+            flex-direction: row;
+        }
+        .nav-link {
+            margin-right: 4px;
+            font-size: 10px;
+        }
+        .navbar-brand {
+            font-size: 14px;
         }
 }
