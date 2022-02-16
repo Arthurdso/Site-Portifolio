@@ -18,6 +18,10 @@ html {
     padding-bottom: 5%;
 }
 
+.carousel-arrow {
+    color: black;
+}
+
 .foto-perfil {
     height: 18%;
     width: auto;
