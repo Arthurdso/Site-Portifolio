@@ -5,6 +5,11 @@
     --darkTheme:#1c1c1d;
 }
 
+* {
+    font-family:'Sarala', sans-serif;
+    font-weight: 400;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -14,8 +19,9 @@ html {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-top: -5%;
+    margin-top: -2%;
     padding-bottom: 5%;
+    height: 8vw;
 }
 
 .carousel-arrow {
@@ -37,9 +43,9 @@ html {
     background-color: var(--corSecundaria);
 }
 
-p {
-    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: black !important;
+.card-text, .lead, .footer-p {
+    font-family:'Sarala', sans-serif;
+    color: black;
 }
 
 .icones {
@@ -54,6 +60,15 @@ p {
     text-transform: uppercase;
     font-weight: 700;
     color: white;
+}
+
+.titulosPretos {
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
 }
 
 .titulosVerdes {
@@ -212,4 +227,25 @@ a:hover{
         .foto-perfil {
             max-width: 30%;
         }
+}
+
+.oculto {
+    color: white;
+}
+
+.oculto-b {
+    color: var(--darkTheme) !important;
+}
+
+.card-body-b{
+    background-color: var(--darkTheme);
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-text-b {
+    color:white;
+    font-family:'Sarala', sans-serif;
 }
