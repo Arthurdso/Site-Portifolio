@@ -59,10 +59,3 @@ for (let i = 0; i < cardText.length; i++) {
     cardText[i].classList.toggle('card-text-b');
     });
 }
-
-for (let i = 0; i < oculto.length; i++) {
-    trocaTemaEscuro.addEventListener("click", function() {
-    oculto[i].classList.toggle("oculto");
-    oculto[i].classList.toggle('oculto-b');
-    });
-}

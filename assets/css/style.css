@@ -230,11 +230,7 @@ a:hover{
 }
 
 .oculto {
-    color: white;
-}
-
-.oculto-b {
-    color: var(--darkTheme) !important;
+    opacity: 0;
 }
 
 .card-body-b{
