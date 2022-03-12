@@ -148,6 +148,10 @@ a:hover{
     background-color: var(--darkTheme);
 }
 
+.mb-4 {
+    height: 480px !important;
+}
+
 @media (min-width: 440px){
     .navbar-expand-lg, .navbar-collapse {
     display: -webkit-box!important;
